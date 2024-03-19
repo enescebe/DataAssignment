@@ -1,0 +1,100 @@
+#QUESTİON1-1: Cities; Think of at least three cities you would love to visit.
+#Store these city names in a list
+
+cities = ["Samarkand","Vienna","Petersburg","Medina"]
+for city in cities:
+    print(city)
+##1.2: Modify your for loop to print a sentence using the name of the city,
+# For each city, you should have one line of output containing the statement I dream of visiting Paris.
+
+cities = ["Samarkand","Vienna","St.Petersburg","Medina"]
+for city in cities:
+    print(f"I am looking forward to visit my dream city, which is {city}.")
+
+1.3: Add a line at the end of your program, outside the for loop,
+that states how much you want to visit these cities.
+print("\n These cities are precious for me with their history and uniqueness.")
+print("Going around in Samarkand that has archaic buildings is fascinating,")
+print("Viewing carefully the amazing places in Vienna is invaluable")
+print("St.Petersburg, the city of subjecting to novels, is wonderful.")
+print("Visiting the holy city where the Prophet used to live in is a meaningful ")
+print("Traveling the cities that have the values is my passion")
+
+#QUESTİON 2-2.1: Think of at least three different fruits that are your favorites.
+
+fruits = ["Banana","Apple","Strawberry"]
+for fruit in fruits:
+    print(fruit)
+
+#2.2
+fruits = ["Banana","Apple","Strawberry"]
+for fruit in fruits:
+    print(f"{fruit}s are nutritious and healthy.")
+
+#2.3
+fruits = ["Banana","Apple","Strawberry"]
+for fruit in fruits:
+    print(f" Banana, Apple, Strawberry are nutritious and healthy.")
+    print("All of these fruits are full of vitamins and taste sugary!")
+
+#QUESTİON 3- 3.1
+movies = ["Children Of Heaven","Prestige","A Beautiful Mind"]
+for movie in movies:
+    print(movie)
+
+## 3.2
+movies = ["Children Of Heaven","Prestige","A Beautiful Mind"]
+for movie in movies:
+    print(f"I love watching {movie}.")
+
+## 3.3
+
+print("\n I am really impressed by these movies remarkable scenarios  ")
+print("Children Of Heaven is so sentimental movie")
+print("Getting surprised and shocked is so normal in every scene of Prestige")
+print("A movie that smells intelligence is A Beautiful Mind")
+print("Watching movies is my way of enjoying")
+
+##Question 4: 4.1
+
+books = ["Infocracia", "The Lily of the Valley", "Muqaddimah"]
+for book in books:
+    print(book)
+
+#Question 4.2
+books = ["Infocracia", "The Lily of the Valley", "Muqaddimah"]
+for book in books:
+    print(f"The book {book} has a rich content.")
+
+#Question 4.3
+
+print("\nEach of books have a unique content that left a profound effect on me")
+print("Big data is surrounding every aspect of life in Infocracia,")
+print("The story of desperate love in The Lily of the Valley, and")
+print("Knowledge of societies in Muqaddimah.")
+print("Reading is way of finding myself in a endless path")
+
+##QUESTİON 5-5.1:
+
+bands = ["MFÖ", "Kurtalan Ekspres","Manga"]
+for band in bands:
+    print(band)
+
+#5.2:
+bands = ["MFÖ", "Kurtalan Ekspres","Manga"]
+for band in bands:
+    print(f"I enjoy listening to the music of {band}.")
+
+#5.3:
+
+print("\nThese bands all are for fans of rock music")
+print("The style of old school rock in MFÖ,")
+print("The voice of Anatolia is Kurtalan Ekspres, and")
+print("Modern rock style of the Manga")
+print("Rock is my soul, and these bands speak to my heart!")
+
+
+
+
+
+
